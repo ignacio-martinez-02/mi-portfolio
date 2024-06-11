@@ -108,3 +108,13 @@ button:hover{
 .datos{
     text-align: end;
 }
+
+.num-datos{
+    color: #fd7f65;
+    font-size: 45px;
+}
+
+.desc-text{
+    color: #656667;
+    font-size: 20px;
+}
