@@ -221,3 +221,48 @@ button:hover{
     padding: 35px 0 0 15px;
 }
 
+.skills-tittle{
+    font-size: 50px;
+}
+
+.div-container-skills{
+    margin: 25px;
+    border-bottom: 3px solid #828383;
+}
+
+.progress-figma{
+    border: 3px solid #f99f89;
+    width: 70%;
+    position: relative;
+    top: 3px;
+}
+
+.progress-html{
+    border: 3px solid #f99f89;
+    width: 85%;
+    position: relative;
+    top: 3px;
+
+}
+
+.progress-css{
+    border: 3px solid #f99f89;
+    width: 80%;
+    position: relative;
+    top: 3px;
+
+}
+
+.progress-js{
+    border: 3px solid #f99f89;
+    width: 70%;
+    position: relative;
+    top: 3px;
+}
+
+.progress-db{
+    border: 3px solid #f99f89;
+    width: 90%;
+    position: relative;
+    top: 3px;
+}
