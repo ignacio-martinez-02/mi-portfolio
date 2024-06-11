@@ -199,3 +199,25 @@ button:hover{
 .service-description{
     padding: 15px;
 }
+
+.div-edu{
+    display: flex;
+    align-items: center;
+}
+
+.educacion{
+    margin: 25px;
+}
+
+.edu-tittle{
+    font-size: 50px;
+}
+
+.img-calendario{
+    width: 15px;
+}
+
+.info-edu{
+    padding: 35px 0 0 15px;
+}
+
