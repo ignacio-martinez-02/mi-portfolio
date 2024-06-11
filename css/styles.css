@@ -266,3 +266,26 @@ button:hover{
     position: relative;
     top: 3px;
 }
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.publicidad-final{
+    background-color: #fd8e77;
+    border-radius: 5px;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-final{
+    width: 150px;
+}
+
