@@ -169,3 +169,33 @@ button:hover{
     font-weight: bold;
     text-decoration: underline;
 }
+
+.servicios{
+    background-color: #f7f7f7;
+}
+
+.services-tittle{
+    font-size: 50px;
+}
+
+.div-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-element{
+    margin: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.service-names{
+    padding: 10px;
+    text-align: center;
+}
+
+.service-description{
+    padding: 15px;
+}
