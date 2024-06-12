@@ -24,6 +24,11 @@ nav{
     text-wrap: 2;
 }
 
+.menu{
+    color: black;
+    width: 15px;
+}
+
 .logo-pagina{
     width: 150px;
 }
@@ -75,6 +80,11 @@ button:hover{
     background-color: black;
     color: #fd8e77;
     cursor: pointer;
+}
+
+.hero-tittle{
+    font-size: 70px;
+    margin: 20px 0;
 }
 
 .section-tittle{

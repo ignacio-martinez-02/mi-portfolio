@@ -2,29 +2,400 @@
 /* unidades basicas a tener en cuenta*/
 
 @media(max-width:320px){
-    
+    nav a{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .me, .logoFinal, .contact-image, .publicidad-final{
+        display: none;
+    }
+    .menu{
+        height: 15px;
+    }
+    .hero-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-container h2{
+        font-size: 20px;
+    }
+    .hero-tittle{
+        font-size: 35px;
+    }
+    .hero-container p{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .hero-container button{
+        font-size: 10px;
+        margin: 10px;
+    }
+    .about h1{
+        font-size: 15px;
+    }
+    .section-tittle{
+        font-size: 25px;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .webdev{
+        display: none;
+    }
+    .num-datos{
+        font-size: 20px;
+    }
+    .datos p{
+        font-size: 15px;
+    }
+    .descripcion{
+        border-top: solid 1px black;
+        border-left: none;
+    }
+    .desc-text{
+        font-size: 15px;
+        margin: 50px 0;
+        padding: 0;
+    }
+    .webdev h1{
+        font-size: 20px;
+    }
+    .destacados-content{
+        font-size: 15px;
+    }
+    .div-img-portfolio{
+        flex-direction: column;
+    }
+    .servicios p{
+        font-size: 15px;
+    }
+    .div-element p{
+        display: none;
+    }
+    .div-element{
+        width: 30%;
+        margin: 0;
+        justify-content: space-between;
+    }
+    .div-element h2{
+        font-size: 10px;
+    }
+    .all-skills{
+        width: 90%;
+    }
+    .datos-contacto{
+        justify-content: flex-start;
+    }
+    form{
+        width: 90%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .mail{
+        text-align: center;
+        padding: 5px;
+    }
 }
 
 @media(max-width:480px){
+    nav a {
+            display: none;
+        }
     
+        nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+    
+        .me,
+        .logoFinal,
+        .contact-image,
+        .publicidad-final {
+            display: none;
+        }
+    
+        .hero-container {
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+    
+        .hero-container h2 {
+            font-size: 20px;
+        }
+    
+        .hero-tittle {
+            font-size: 35px;
+        }
+    
+        .hero-container p {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+    
+        .hero-container button {
+            font-size: 10px;
+            margin: 10px;
+        }
+    
+        .about h1 {
+            font-size: 25px;
+        }
+    
+        .section-tittle {
+            font-size: 25px;
+        }
+    
+        .num-datos {
+            font-size: 20px;
+        }
+    
+        .datos p {
+            font-size: 15px;
+        }
+    
+        .about-content{
+            flex-grow: 1;
+            align-items: center;
+        }
+    
+        .desc-text {
+            font-size: 15px;
+            margin: 50px 0;
+            padding: 0;
+        }
+    
+        .webdev {
+            display: none;
+        }
+    
+        .destacados-content {
+            font-size: 15px;
+        }
+    
+        .div-img-portfolio {
+            flex-direction: column;
+        }
+    
+        .servicios p {
+            font-size: 15px;
+        }
+    
+        .div-element p {
+            display: none;
+        }
+    
+        .div-element {
+            width: 30%;
+            margin: 0;
+            justify-content: space-between;
+        }
+    
+        .div-element h2 {
+            font-size: 10px;
+        }
+    
+        .all-skills {
+            width: 90%;
+        }
+    
+        .datos-contacto {
+            justify-content: flex-start;
+        }
+    
+        form {
+            width: 90%;
+        }
+    
+        footer {
+            flex-direction: column;
+        }
+        .telefono{
+            text-align: center;
+            padding: 10px;
+        }
+        .mail {
+            text-align: center;
+            padding: 10px;
+        }
 }
 
 @media(max-width:768px){
-    
+        nav a {
+            font-size: 15px;
+        }
+        .logo-pagina{
+            width: 15%;
+        }
+        .menu{
+            display: none;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .div-image{
+            /* width: 90%; */
+            flex-grow: 1;
+        }
+        .contact-image{
+            display: none;
+        }
+        .hero-container {
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .hero-container h2 {
+            font-size: 20px;
+        }
+        .hero-tittle {
+            font-size: 35px;
+        }
+        .hero-container p {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+        .hero-container button {
+            font-size: 10px;
+            margin: 10px;
+        }
+        .about h1 {
+            font-size: 30px;
+        }
+        .section-tittle {
+            font-size: 30px;
+        }
+        .num-datos {
+            font-size: 20px;
+        }
+        .datos p {
+            font-size: 15px;
+        }
+        .about-content {
+            flex-grow: 1;
+            align-items: center;
+        }
+        .desc-text {
+            font-size: 15px;
+            margin: 50px 0;
+            padding: 0;
+        }
+        .webdev h1 {
+            font-size: 40px;
+        }
+        .destacados-content {
+            font-size: 15px;
+        }
+        .portfolio-img {
+            width: 90%;
+        }
+        .servicios p {
+            font-size: 15px;
+        }
+        .div-element {
+            width: 30%;
+            margin: 0;
+            justify-content: space-between;
+        }
+        .div-element h2 {
+            font-size: 10px;
+        }
+        .all-skills {
+            width: 90%;
+        }
+        .div-container-skills{
+            width: 100%;
+        }
+        .datos-contacto {
+            justify-content: flex-start;
+        }
+        form {
+            width: 90%;
+        }
+        footer {
+            flex-direction: column;
+        }
+        .telefono {
+            text-align: center;
+            padding: 10px;
+        }
+        .mail {
+            text-align: center;
+            padding: 10px;
+        }
 }
 
 @media(max-width:1024px) {
-
+        .menu {
+                display: none;
+            }
+        .section-tittle{
+            font-size: 40px;
+        }
+        .about h1{
+            font-size: 40px
+        }
+        .webdev h1{
+            font-size: 80px;
+        }
+        .all-skills {
+            width: 90%;
+        }
+        .div-container-skills{
+            width: 100%;
+        }
+        .datos-contacto{
+            flex-wrap: 2;
+        }
+        .contact-image img{
+            width: 90%;
+            flex-wrap: 1;
+        }
 }
 
 @media(max-width:1280px) {
-
+        .menu {
+            display: none;
+        }
+        .section-tittle{
+            font-size: 55px;
+        }
+        .about h1{
+            font-size: 55px;
+        }
 }
 
 @media(max-width:1440) {
-
+        .menu {
+            display: none;
+            }
+        .section-tittle{
+            font-size: 75px;
+        }
+        .about h1{
+            font-size: 75px;
+        }
+        .webdev h1{
+            font-size: 90px;
+        }
 }
 
 @media(max-width:1920) {
-
+        .menu {
+            display: none;
+        }
+        .section-tittle{
+            font-size: 90px;
+        }
+        .about h1{
+            font-size: 90px;
+        }
+        .webdev h1{
+            font-size: 110px;
+        }
 }
