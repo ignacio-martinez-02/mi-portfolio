@@ -6,34 +6,13 @@
     font-family: "Cactus Classical Serif", serif;
 }
 
+/* desde aca las propiedades de los elementos del header */
 header {
     background-color: #ffffff;
     text-align: center;
     display: flex;
     justify-content: space-between;
     font-weight: bold;  
-
-}
-
-
-.left-header{
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo-pagina{
-    width: 150px;
-}
-
-img{
-    height: 90px;
-    width: 40px;
-}
-
-.texto-logo{
-    text-align: left;
-    padding: 15px;
-    font-weight: bold;
 }
 
 nav{
@@ -42,12 +21,16 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-wrap: 2;
+}
+
+.logo-pagina{
+    width: 150px;
 }
 
 a{
     text-decoration: none;
     color: black;
-    
 }
 
 .nav-button{
@@ -60,24 +43,19 @@ a{
     background-color: black;
     color: #ffffff;
 }
+/*hasta aca las propiedades de los elementos del header */
 
-i{
-    display: flex;
-    align-items: center;
-}
 
+/* desde aca las propiedades de los elementos del section Hero */
 .hero{
     display: flex;
     justify-content: space-between;
-    padding: 80px 20px;
+    padding: 0 20px;
 }
 
 .me{
     width: 450px;
     height: 500px;
-    position: relative;
-    bottom: 30px;
-    right: 30px; 
 }
 
 span{
@@ -99,46 +77,71 @@ button:hover{
     cursor: pointer;
 }
 
-.hero h1{
-    font-size: 50px;
+.section-tittle{
+    font-size: 70px;
+    margin: 20px 0;
 }
 
 .hero p{
     margin: 20px 0;
 }
 
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* hasta aca las propiedades de los elementos del section Hero */
+
+
+/* desde aca las propiedades de los elementos del section about */
 .about{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
 }
-.divisor{
-    border: solid 1px black;
-    flex-shrink: 0;
 
+.about h1{
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.about-content{
+    display: flex; 
+    justify-content: space-between;
 }
 
 .descripcion{
     display: flex;
+    padding: 0 50px;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 70%;
+    border-left: solid 1px black;
+    text-wrap: 1;
 }
 
 .datos{
     text-align: end;
+    padding: 0 50px;
+    width: 30%;
 }
 
 .num-datos{
     color: #fd7f65;
     font-size: 45px;
+    margin: 15px;
 }
 
 .desc-text{
     color: #656667;
     font-size: 20px;
 }
+/* hasta aca las propiedades de los elementos del section about */
 
+/* desde aca las propiedades de los elementos del section webdev */
 .webdev{
     margin: 60px;
     text-align: center;
@@ -150,15 +153,20 @@ button:hover{
     height: 100px;
     transform: rotate(45deg);
 }
+/* hasta aca las propiedades de los elementos del section webdev */
 
-.portfolio-img{
-    width: 250px;
-    height: 200px;
-    border-radius: 5px;
+/* desde aca las propiedades de los elementos del section destacados qeu se refiere al portfolio */
+.destacados{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    margin: 80px 0px;
 }
 
-.portfolio-text{
-    font-size: 50px;
+.destacados-content{
+    display: flex;
+    flex-direction: column;
 }
 
 .destacados p{
@@ -172,12 +180,27 @@ button:hover{
     margin: 40px;
 }
 
+.portfolio-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
 .see-all{
     font-weight: bold;
     text-decoration: underline;
 }
+/* hasta aca las propiedades de los elementos del section destacados */
 
+
+
+/* desde aca las propiedades de los elementos del section de servicios */
 .servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 80px 0;
     background-color: #f7f7f7;
 }
 
@@ -207,17 +230,25 @@ button:hover{
     padding: 15px;
 }
 
+.servicios img{
+    width: 50px;
+    margin: 10px;
+}
+/* hasta acá las propiedades de los elementos del section de servicios */
+
+
+/* desde aca las propiedades de los elementos del section educacion */
+.educacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 80px 0;
+}
+
 .div-edu{
     display: flex;
     align-items: center;
-}
-
-.educacion{
-    margin: 25px;
-}
-
-.edu-tittle{
-    font-size: 50px;
 }
 
 .img-calendario{
@@ -227,9 +258,19 @@ button:hover{
 .info-edu{
     padding: 35px 0 0 15px;
 }
+/* hasta aca las propiedades de los elementos del section educacion */
 
-.skills-tittle{
-    font-size: 50px;
+/* desde aca las propiedades de los elementos del section skills */
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 80px 0;
+}
+
+.all-skills{
+    width: 70%;
 }
 
 .div-container-skills{
@@ -273,19 +314,21 @@ button:hover{
     position: relative;
     top: 3px;
 }
+/* hasta aca las propiedades de los elementos del section skills */
 
+/* desde aca las propiedades de los elementos del section contacto */
 .contacto{
-    margin: 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
+    padding: 20px;
+    margin: 80px 0;
 }
 
 .publicidad-final{
     background-color: #fd8e77;
     border-radius: 5px;
-    width: 90%;
+    width: 95%;
     height: 200px;
     display: flex;
     justify-content: space-around;
@@ -293,84 +336,52 @@ button:hover{
     align-content: center;
 }
 
-.logo-final{
+.logoFinal{
     width: 150px;
 }
 
-footer{
-    background-color: #f9f9f9;
+.datos-contacto {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.redes-icon{
-    width: 15px;
-    height: 15px;
-}
-
-form {
-    width: 60%;
+form{
+    width: 40%;
     padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    /* flex-direction: column; */
-}
-
-.datos-contacto{
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
 }
 
 .form-datos {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
-
-.form-datos label {
-    margin: 5px;
-}
-
 
 .form-datos input {
-    margin: 5px 0;
+    margin: 10px 0;
     padding: 10px;
-    /* width: 70%; */
     border-radius: 5px;
     border: 2px solid #f99f89;
 }
 
 .mensaje{
-    height: 150px;
+    height: 100px;
 }
-
-.form-message label {
-    margin: 5px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    }
 
 .sumbit-button{
     cursor: pointer;
     margin: 10px 0;
     width: 100px;
     padding: 2px;
-    background-color: #ffffff;
-    border: 2px solid #f99f89;
-    color: black;
+    background-color: #f99f89;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     transition: background-color 0.5s, color 0.5s, border 0.5s;
 }
 
 .sumbit-button:hover{
-    background-color: #f99f89;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    background-color: #ffffff;
+    border: 2px solid #f99f89;
+    color: #f99f89;
 }
 
 .contact-image{
@@ -383,7 +394,22 @@ form {
 
 .contact-image img{
     margin: 5px;
-    width: 100%;
+    width: 60%;
     height: 400px;
     border-radius: 5px;
 }
+/* hasta aca las propiedades de los elementos del section contacto */
+
+/* desde aca las propiedades de los elementos del footer */
+footer {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes-icon {
+    width: 15px;
+    height: 15px;
+}
+/*hasta aca las propiedades de los elementos del footer */

@@ -6,16 +6,13 @@
     <title>Ignacio Martinez</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
     <header>
-        <div class="left-header">
             <img src="img/logo.png" alt="" class="logo-pagina">
-        </div>
         <nav>
-
-        
             <a href="#hero" class="nav-button">Inicio</a>
             <a href="#about" class="nav-button">Acerca <br> de mi</a>
             <a href="#destacados" class="nav-button">Portfolio</a>
@@ -23,7 +20,6 @@
             <a href="#educacion" class="nav-button">Educación</a>
             <a href="#skills" class="nav-button">Habilidades</a>
             <a href="#contacto" class="nav-button">Contacto</a>
-        
         </nav>    
     </header>
 
@@ -32,8 +28,8 @@
        
         <section class="hero" id="hero">
             <div class="hero-container">
-                <h2>Hola 🖐 soy Ignacio</h1>
-                <h1>Desarrollador <br>Web</h1>
+                <h2>Hola 🖐 soy Ignacio</h2>
+                <h1 class="section-tittle">Desarrollador <br>Web</h1>
                 <p>Aumenta el alcance de tu negocio <br>creando tu <span>página web</span></p>
                 <a href="#contacto"><button>¡Contratame!</button></a>
             </div>
@@ -45,8 +41,9 @@
         <!-- aca termina el hero -->
 
         <!-- aca comienza el about -->
-        <h1>Conoce un poco más acerca de mi</h1>
         <section class="about" id="about">
+        <h1 class="section-tittle">Acerca de mi</h1>
+        <div class="about-content">
             <div class="datos">
                 <h2 class="num-datos">+1</h2>
                 <p>Año de experiencia <br>en el rubro</p>
@@ -55,10 +52,12 @@
                 <h2 class="num-datos">3</h2>
                 <p>Certificados de <br>mi formacion</p>
             </div>
-            <div class="divisor"></div>
+            <!-- <div class="divisor"></div> -->
             <div class="descripcion">
                 <p class="desc-text">Soy un estudiante de la carrera Ingeniería en Sistemas de Información. Estoy en constante formación y aprendizaje de las nuevas tecnologías sobre el mundo de la programación y el desarrollo web. Actualmenteme encuentro dando mis primeros pasos como Freelancer. Manejo principalmente tecnologias de Frontend para el desarrollo de páginas web destinado a empresas que buscan ampliar sus horizontes y tener un mayor alcance para vender sus productos y/o servicios. Me gusta explotar mi creatividad al máximo para brindar el mejor servicio, realizando webs llamativas que marquen la diferencia y capten la atención de quienes la visitan.</p>
-            </div>
+            </div>    
+        </div>
+            
         </section>
         <!-- aca termina el about -->
 
@@ -70,15 +69,17 @@
 
         <!-- en este section muestro mis proyectos destacados -->
         <section class="destacados" id="destacados">
-            <h1 class="portfolio-text">Mi Portfolio</h1>
+            <h1 class="section-tittle">Mi Portfolio</h1>
+            <div class="destacados-content">
             <p>Conoce algunos de mis proyectos más destacados y que mayor éxito tuvieron para tener una mejor referencia sobre mi trabajo</p>
             <div class="div-img-portfolio">
                 <a href="#hero"><img src="img/portfolio1.jpg" alt="" class="portfolio-img"></a>
                 <a href="#hero"><img src="img/portfolio2.jpg" alt="" class="portfolio-img"></a>
                 <a href="#hero"><img src="img/portfolio3.jpg" alt="" class="portfolio-img">  </a>  
             </div>
-
-                <a href="" class="see-all">Ver todos los proyectos</a>
+                <a href="" class="see-all">Ver todos los proyectos</a>    
+            </div>
+            
             
             
         </section>
@@ -87,9 +88,10 @@
 
         <!-- en este section muestro mis servicios -->
         <section class="servicios" id="servicios">
-            <h1 class="services-tittle">Mis Servicios</h1>
+            <h1 class="section-tittle">Mis Servicios</h1>
             <p>Ofrezco los servicios basicos que toda empresa debería implementar para lograr sus objetivos en cuanto a alcance</p>
             <div class="div-container">
+                
                 <div class="div-element">
                     <h2 class="service-names">UX/UI</h2>
                     <img src="img/ui-ux.svg" alt="">
@@ -108,13 +110,12 @@
                     <p class="service-description">Finalmente, para que la web nos de los resultados esperados, debe maximizar su alcance hacia el público</p>
                 </div>
             </div>
-            
         </section>
         <!-- aca termina el section de servicios -->
 
         <!-- aca muestro mi formacion -->
         <section class="educacion" id="educacion">
-            <h1 class="edu-tittle">Educación</h1>
+            <h1 class="section-tittle">Educación</h1>
             <div class="div-edu">
                 <img src="img/calendar.svg" alt="" class="img-calendario">
                 <div class="info-edu">
@@ -140,27 +141,30 @@
 
         <!-- en este section muestro mis skills -->
         <section class="skills" id="skills">
-            <h1 class="skills-tittle">skills</h1>
-            <div class="div-container-skills">
-                <p><span>Figma</span>: 70%</p>
-                <div class="progress-figma"></div>
+            <h1 class="section-tittle">Skills</h1>
+            <div class="all-skills">
+                    <div class="div-container-skills">
+                    <p><span>Figma</span>: 70%</p>
+                    <div class="progress-figma"></div>
+                </div>
+                <div class="div-container-skills">
+                    <p><span>HTML</span>: 85%</p>
+                    <div class="progress-html"></div>
+                </div>
+                <div class="div-container-skills">
+                    <p><span>CSS</span>: 80%</p>
+                    <div class="progress-css"></div>
+                </div>
+                <div class="div-container-skills">
+                    <p><span>JavaScript</span>: 70%</p>
+                    <div class="progress-js"></div>
+                </div>
+                <div class="div-container-skills">
+                    <p><span>Base de Datos</span>: 90%</p>
+                    <div class="progress-db"></div>
+                </div>
             </div>
-            <div class="div-container-skills">
-                <p><span>HTML</span>: 85%</p>
-                <div class="progress-html"></div>
-            </div>
-            <div class="div-container-skills">
-                <p><span>CSS</span>: 80%</p>
-                <div class="progress-css"></div>
-            </div>
-            <div class="div-container-skills">
-                <p><span>JavaScript</span>: 70%</p>
-                <div class="progress-js"></div>
-            </div>
-            <div class="div-container-skills">
-                <p><span>Base de Datos</span>: 90%</p>
-                <div class="progress-db"></div>
-            </div>
+            
         </section>
         <!-- aca termina el section de skills -->
 
@@ -177,11 +181,11 @@
         
             <div class="datos-contacto">
                 <form>
-                    <div class="form-datos">
-                        <h1>Contactame</h1>
+                <div class="form-datos">
+                    <h1>Contactame</h1>
                         <label>Nombre y Apellido</label>
                         <input type="text" />
-                        <label>Direccion de Mail</label>
+                        <label>Direccion de Email</label>
                         <input type="email" />
                         <label>Telefono</label>
                         <input type="number" />
@@ -189,7 +193,7 @@
                         <input type="text" class="mensaje" />
                         <input type="submit" class="sumbit-button" value="Enviar"/>
                     </div>
-                    </form>
+                </form>
                 <div class="contact-image">
                     <img src="img/contactImage.jpg" alt="">
                 </div>
